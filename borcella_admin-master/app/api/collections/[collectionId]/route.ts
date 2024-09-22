@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 
-import { connectToDB } from "@/lib/mongoDB";
+import { connectToDB } from "@/lib/models/mongoDB";
 import Collection from "@/lib/models/Collection";
 import Product from "@/lib/models/Product";
 

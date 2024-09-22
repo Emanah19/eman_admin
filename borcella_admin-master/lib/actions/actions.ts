@@ -1,6 +1,6 @@
 import Customer from "../models/Customer";
 import Order from "../models/Order";
-import { connectToDB } from "../mongoDB"
+import { connectToDB } from "../models/mongoDB"
 
 export const getTotalSales = async () => {
   await connectToDB();

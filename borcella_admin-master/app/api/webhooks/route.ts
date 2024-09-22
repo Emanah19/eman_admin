@@ -1,6 +1,6 @@
 import Customer from "@/lib/models/Customer";
 import Order from "@/lib/models/Order";
-import { connectToDB } from "@/lib/mongoDB";
+import { connectToDB } from "@/lib/models/mongoDB";
 import { NextRequest, NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
 
